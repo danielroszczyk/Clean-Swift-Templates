@@ -13,7 +13,7 @@ public protocol ___VARIABLE_sceneName___ConfiguratorProtocol {
 }
 
 public class ___VARIABLE_sceneName___Configurator: ResolvableConfigurator, ___VARIABLE_sceneName___ConfiguratorProtocol {
-    public static func configure___VARIABLE_sceneName___Module() -> UIViewController {
+    public func configure___VARIABLE_sceneName___Module() -> UIViewController {
         // let viewController: ___VARIABLE_sceneName___ViewController = ___VARIABLE_sceneName___ViewController(nib: )
 
         let presenter = ___VARIABLE_sceneName___Presenter(viewController: viewController)
